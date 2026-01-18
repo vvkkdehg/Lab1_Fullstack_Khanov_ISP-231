@@ -5,3 +5,6 @@ Console.WriteLine();
 Console.Write("Введите имя: ");
 var name = Console.ReadLine();
 Console.WriteLine($"Привет, {name}");
+Console.WriteLine();
+string dayOfWeek = DateTime.Now.ToString("dddd");
+Console.WriteLine($"Текущий день недели: {dayOfWeek}");
